@@ -1,0 +1,105 @@
+
+.home-container {
+  padding: 20px;
+}
+
+.home-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+.members-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.member-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  background-color: #fff;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+}
+
+.member-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.member-card h3 {
+  font-size: 18px;
+  margin: 8px 0 4px;
+}
+
+.member-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+.pichome{
+  width: 100vw;         /* Full viewport width */
+  height: 400px;         /* Adjust height automatically */
+  display: block;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  
+}
+
+
+
+
+
+.homesec{
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+}
+
+
+
+
+.clubpres{
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.clubpres p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+.theparag{
+  font-size: 1.5rem;
+  color: #222;
+  text-align: center;
+  margin: 30px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+
+

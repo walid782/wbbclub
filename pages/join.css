@@ -1,0 +1,43 @@
+.joincont {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .joinfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .joinfo label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .joinfo input,
+  .joinfo textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .joinfo button {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #013174;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .joinfo button:hover {
+    background-color: #0052a3;
+  }
+  
